@@ -1,0 +1,24 @@
+header{
+    img{
+         width: 130px;
+         margin-left: 80px;
+    }
+    nav{
+        .collapse{
+            justify-content: flex-end;
+            margin-right: 80px;
+        }
+        a{
+        font-size: 1rem; 
+        text-decoration: none; 
+        color: $negro;
+        }
+        .nav-link:hover{
+            color: $naranja;
+            text-decoration: underline;
+        } 
+        .navbar-nav .nav-link.active {
+            color: $naranja;
+        }
+    }
+}

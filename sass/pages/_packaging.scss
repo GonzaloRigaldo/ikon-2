@@ -1,0 +1,34 @@
+/*Imagenes 100% packaging*/
+.contenedor-grid-packaging img{
+    width: 100%;
+    height: 100%;
+}
+/*grilla packaging*/
+.contenedor-grid-packaging{
+    display: grid;
+
+    /*definir las areas*/
+    grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8";
+
+    /*ancho de columna*/
+    grid-template-columns: 20% 20% 20% 20% ;
+
+    /*alto de fila*/
+    grid-template-rows: repeat(2, 230px);
+
+    /*acomodar a los hijos*/
+    justify-items: center;
+    align-items: center;
+
+    /*acomodar grilla*/
+    justify-content: center;
+
+    /*espacios entre filas y columnas*/
+    row-gap: 30px;
+    column-gap: 30px;
+
+    /*margen inferior de la grilla*/
+    margin-bottom: 30px;
+}

@@ -1,0 +1,64 @@
+// variables
+$negro: #242321;
+$naranja: #e09a0e;
+$body:#f2f0ec;
+$footer:#ece9e4; 
+$gris: #898989;
+$blanco: #ffffff;
+$font: 'Montserrat', sans-serif;
+
+@mixin flex ($direction, $margin) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+html{font-family: $font;
+    font-size: 100%; /*1rem=16px*/ }
+    
+    p{color: $negro;font-size: 1rem;}
+    
+    h1{font-size: 2rem;}
+    
+    h2{font-size: 1.5rem;}
+    
+    h3{font-size: 1rem;}
+    
+    body{background-color: $body;}
+
+.grid-img-1{
+        grid-area: img1;
+    }
+.grid-img-2{
+        grid-area: img2;
+    }
+.grid-img-3{
+        grid-area: img3;
+    }
+.grid-img-4{
+        grid-area: img4;
+    }
+.grid-img-5{
+        grid-area: img5;
+    }
+.grid-img-6{
+        grid-area: img6;
+    }
+.grid-img-7{
+        grid-area: img7;
+    }
+.grid-img-8{
+        grid-area: img8;
+    }
+.grid-img-9{
+        grid-area: img9;
+    }
+.grid-img-10{
+        grid-area: img10;
+    }
